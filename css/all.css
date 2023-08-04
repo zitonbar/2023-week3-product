@@ -1,0 +1,44 @@
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.bg-red {
+    background-color: #aa0601;
+}
+.d-flex {
+    display: flex;
+}
+.logo h1 a {
+    background-image: url(https://github.com/zitonbar/2023-week3-product/blob/main/images/logo-white.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 80px;
+    height: 48.57px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.ai-c {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+.fz-20 {
+    font-size: 20px;
+}
+header a {
+    color: #ffffff;
+}
+.p-12 {
+    padding: 12px 0;
+}
+.mx-32 {
+    margin: 0 32px;
+}
