@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1296px;
     margin: 0 auto;
@@ -27,18 +31,28 @@
     align-items: center;
 }
 
-a {
-    text-decoration: none;
-}
 .fz-20 {
     font-size: 20px;
 }
 header a {
     color: #ffffff;
 }
-.p-12 {
+.py-12 {
     padding: 12px 0;
 }
-.mx-32 {
-    margin: 0 32px;
+.py-36 {
+    padding: 36px 0;
+}
+.ml-32 {
+    margin-left: 32px;
+}
+@media (max-width: 768px) {
+    .nav {
+        padding: 12px 36px;
+    }
+}
+@media (max-width: 375px) {
+    .nav {
+        padding: 16px 15px;
+    }
 }
