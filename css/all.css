@@ -1,11 +1,11 @@
 a {
     text-decoration: none;
+    color: #ffffff;
 }
 
 .container {
-    max-width: 1296px;
+    max-width: 1320px;
     margin: 0 auto;
-    padding: 0 12px;
 }
 .bg-red {
     background-color: #aa0601;
@@ -37,9 +37,15 @@ a {
 header a {
     color: #ffffff;
 }
-.py-12 {
+.p-12 {
+    padding: 12px;
+}
+/* .py-12 {
     padding: 12px 0;
 }
+.px-12 {
+    padding: 0 12px;
+} */
 .py-36 {
     padding: 36px 0;
 }
