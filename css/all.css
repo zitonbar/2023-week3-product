@@ -197,13 +197,6 @@ a {
 .recommend {
     padding: 80px 0;
 }
-.recommend h3 {
-    font-size: 48px;
-    font-weight: 700;
-    color: #650300;
-    text-align: center;
-    margin-bottom: 48px;
-}
 .recommend-list {
     display: flex;
 }
