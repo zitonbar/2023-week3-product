@@ -33,25 +33,26 @@ a {
     color: #aa0601;
 }
 
-.title-red-pb-48 {
+.title-red-mb-48 {
     font-size: 48px;
     font-weight: 700;
     color: #650300;
     text-align: center;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
-.title-white-pb-48 {
+.title-white-mb-48 {
     font-size: 48px;
     font-weight: 700;
     color: #fff;
     text-align: center;
+    margin-bottom: 48px;
 }
-.title-red-pb-24 {
+.title-red-mb-24 {
     font-size: 48px;
     font-weight: 700;
     color: #650300;
     text-align: center;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 .button {
     background: #aa0601;
@@ -183,7 +184,6 @@ a {
 .co-branding ul {
     display: flex;
     align-items: center;
-    margin-top: 48px;
 }
 .co-branding h5 {
     font-size: 48px;
