@@ -13,12 +13,71 @@ a {
     margin: 0 auto;
     padding: 0 12px;
 }
+.material-symbols-outlined {
+    vertical-align: middle;
+}
 
 .bg-primary {
     background-color: #aa0601;
 }
+.bg-secondary {
+    background-color: #fbf2f2;
+}
+.bg-tertiary {
+    background-color: #fff;
+}
 .text-primary {
+    color: #650300;
+}
+.text-secondary {
     color: #aa0601;
+}
+
+.title-red-pb-48 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #650300;
+    text-align: center;
+    padding-bottom: 48px;
+}
+.title-white-pb-48 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.title-red-pb-24 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #650300;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.button {
+    background: #aa0601;
+    color: #fff;
+    text-align: center;
+}
+.button-buy {
+    width: 104px;
+    font-size: 20px;
+    font-weight: 500;  
+    margin-top: 4px;
+    margin-left: auto;
+    padding: 6px 12px;
+}
+.button-buy:hover {
+    cursor: pointer;
+}
+.button-submit {
+    width: 416px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 0;
+    margin: 0 auto;
+}
+.button-submit:hover {
+    cursor: pointer;
 }
 .header-nav {
     display: flex;
@@ -31,7 +90,7 @@ a {
     font-size: 20px;
 }
 .header-nav-link li {
-    padding: 0 32px;
+    padding: 6px 32px;
     border-bottom: 3px solid transparent;
 }
 .header-nav-link li:hover {
@@ -48,12 +107,161 @@ a {
     overflow: hidden;
     white-space: nowrap;
 }
-
 .banner {
-    background-image: url();
+    background-image: url(https://github.com/zitonbar/2023-week3-product/blob/main/images/home-header.png?raw=true);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center ;
+}
+.banner-content {
+    padding: 296px 0;
+    text-align: right;
+    margin-left: auto;
+}
+.banner-content h2 {
+    font-size: 36px;
+}
+.banner-content span {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.feature {
+    padding: 80px 0;
+}
+
+.feature-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.feature-item {
+    width: 306px;
+    text-align: center;
+}
+.feature-item:nth-child(2),
+.feature-item:nth-child(3){
+    margin: 0 12px;
+}
+.feature-item img {
+    display: inline-block;
+    width: 100px;
+}
+.feature-item h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 24px 0 8px 0;
+}
+.feature-item p {
+    text-align: left;
+}
+.classic {
+    padding: 80px 0;
+}
+.classic-list {
+    display: flex;
+}
+.classic-list li:nth-child(2) {
+    margin: 0 24px;
+}
+.classic-list img {
+    width: 416px;
+}
+.classic-list h5 {
+    font-size: 48px;
+    font-weight: 900;
+    font-style: italic;
+    color: #aa0601;
+    text-align: center;
+    margin-top: 8px;
+}
+.co-branding {
+    background-image: url(https://github.com/zitonbar/2023-week3-product/blob/main/images/index-bg.png?raw=true);
+    background-size: cover;
+    background-position: center center;
+    padding: 80px 0;
+}
+.co-branding ul {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+.co-branding h5 {
+    font-size: 48px;
+    font-weight: 900;
+    font-style: italic;
+    color: #aa0601;
+    background-color: #fff;
+    text-align: center;
+    padding: 8px 0;
+}
+.recommend {
+    padding: 80px 0;
+}
+.recommend h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #650300;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.recommend-list {
+    display: flex;
+}
+.recommend-item {
+    width: 306px;
+}
+.recommend-list li:nth-child(2),
+.recommend-list li:nth-child(3) {
+    margin: 0 12px;
+}
+.recommend-item-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border: 1px solid #DEE2E6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+    height: 205px;
+}
+.name {
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.time {
+    display: block;
+    margin-top: auto;
+}
+.time-style {
+    color: #707070;
+}
+
+.contact-content {
+    width: 636px;
+    margin: 0 auto;
+}
+.contact-box {
+    padding: 80px 0;
+}
+.contact-box p {
+    font-size: 20px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+.contact-form label {
+    margin-bottom: 8px;
+}
+.contact-form input, .feedback {
+    color: rgba(0, 0, 0, 0.2);
+    background-color: #fbf2f2;
+    border: 1px solid #000;
+    padding: 6px 12px;
+    margin-bottom: 16px;
+}
+.checkbox-block {
+    margin-bottom: 48px;
 }
 
 .footer-nav {
@@ -66,12 +274,23 @@ a {
 }
 .link-item {
     display: flex;
+    align-items: center;
+}
+.link-item li {
+    margin-right: 48px;
+    border-bottom: 3px solid transparent;
+}
+.link-item li:hover {
+    border-bottom: 3px solid #fff;
 }
 .link-icon {
     display: flex;
 }
 .link-icon li {
     margin-left: 32px;
+}
+.link-icon li:hover {
+    opacity: 0.8;
 }
 .link-icon a {
     width: 48px;
@@ -81,18 +300,9 @@ a {
     font-size: 36px;
     font-weight: 400;
 }
-.material-symbols-outlined {
-    vertical-align: middle;
-}
 
-.footer-nav {
-    padding: 48px 0 32px 0;
-}
 .footer-copyright {
     border-top: 1px solid #fff;
-}
-.link-item li {
-    margin-right: 48px;
 }
 .message {
     padding-bottom: 32px;
@@ -100,7 +310,7 @@ a {
 .footer-copyright {
     display: flex;
     justify-content: space-between;
-    padding: 32px 0;
+    padding-top: 32px;
 }
 .footer-copyright p {
     color: #fff;
@@ -111,4 +321,7 @@ a {
 .footer-copyright-link li {
     margin-left: 48px;
     border-bottom: 1px solid transparent;
+}
+.footer-copyright-link li:hover {
+    border-bottom: 3px solid #fff;
 }
