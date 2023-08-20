@@ -119,7 +119,7 @@ a {
     text-align: right;
     margin-left: auto;
 }
-.banner-content h2 {
+.banner-content p {
     font-size: 36px;
 }
 .banner-content span {
@@ -146,7 +146,7 @@ a {
 .feature-item img {
     width: 100px;
 }
-.feature-item h4 {
+.feature-item h3 {
     font-size: 24px;
     font-weight: 700;
     margin: 24px 0 8px 0;
@@ -166,7 +166,7 @@ a {
 .classic-list img {
     width: 416px;
 }
-.classic-list h5 {
+.classic-list h4 {
     font-size: 48px;
     font-weight: 900;
     font-style: italic;
@@ -184,7 +184,7 @@ a {
     display: flex;
     align-items: center;
 }
-.co-branding h5 {
+.co-branding h4 {
     font-size: 48px;
     font-weight: 900;
     font-style: italic;
@@ -288,12 +288,15 @@ a {
     width: 48px;
     height: auto;
 }
-.message {
+.footer-message {
     font-size: 36px;
 }
-
+.footer-message li:hover {
+    opacity: 0.8;
+}
 .footer-copyright {
     border-top: 1px solid #fff;
+    margin-top: 32px;
 }
 .message {
     padding-bottom: 32px;
