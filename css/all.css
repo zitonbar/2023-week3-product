@@ -188,8 +188,6 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* width: 768px;
-    height: 787px; */
 }
 @media (max-width: 375px){
     .banner {
