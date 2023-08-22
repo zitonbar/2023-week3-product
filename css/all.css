@@ -161,15 +161,20 @@ a {
 @media (max-width: 375px){
     .header-nav-link li{
         width: 187px;
-        height: 48px;
         margin: 0;
-        padding: 6px 12px;
+        padding: 12px 12px;
         text-align: center;
         border: 1px solid #fff;
     }
 }
 .header-nav-link li:hover {
     border-bottom: 3px solid #fff;
+}
+@media (max-width: 375px){
+    .header-nav-link li:hover {
+        border-bottom: none;
+        opacity: 0.7;
+    }
 }
 .logo h1 a {
     background-image: url(https://github.com/zitonbar/2023-week3-product/blob/main/images/logo-white.png?raw=true);
