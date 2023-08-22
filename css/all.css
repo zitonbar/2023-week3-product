@@ -416,7 +416,10 @@ a {
     }
 }
 @media (max-width: 375px){
-    .recommend {
+    .recommend-item:nth-child(1),
+    .recommend-item:nth-child(2),
+    .recommend-item:nth-child(3),
+    .recommend-item:nth-child(4) {
         margin: 0;
     }
     .recommend-item:nth-child(2),
