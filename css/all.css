@@ -653,3 +653,60 @@ a {
 .footer-copyright-link li:hover {
     border-bottom: 3px solid #fff;
 }
+
+/* faq */
+
+.faq-content {
+    max-width: 64.85%;
+    padding: 96px 0 80px 0;
+}
+@media (max-width: 768px){
+    .faq-content {
+        max-width: 100%;
+        padding: 80px 0;
+    }
+}
+@media (max-width: 375px){
+    .faq-content {
+        padding: 40px 0 64px 0;
+    }
+}
+.title-black {
+    font-size: 48px;
+    font-weight: 700;
+    border-left: 8px solid #9F1213;
+    /* text-align: center; */
+    padding-left: 16px;
+}
+@media (max-width: 375px){
+    .title-black {
+        font-size: 24px;
+    }
+}
+.faq-content-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.faq-content-text-dark {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.faq-content-text li:nth-child(2),
+.faq-content-text li:nth-child(4),
+.faq-content-text li:nth-child(6),
+.faq-content-text li:nth-child(8),
+.faq-content-text li:nth-child(10) {
+    margin-bottom: 32px;
+}
+@media (max-width: 375px){
+    .faq-content-text li:nth-child(2),
+    .faq-content-text li:nth-child(4),
+    .faq-content-text li:nth-child(6),
+    .faq-content-text li:nth-child(8),
+    .faq-content-text li:nth-child(10) {
+    margin-bottom: 24px;
+    }
+}
