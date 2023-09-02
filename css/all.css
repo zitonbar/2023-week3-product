@@ -1,3 +1,5 @@
+/* html tag start */
+
 body {
     font-family: 'Roboto', 'Noto Sans TC', sans-serif;
     line-height: 1.5;
@@ -12,7 +14,9 @@ a {
     color: #ffffff;
     display: block;
 }
+/* html tag end  */
 
+/* container start */
 .container {
     max-width: 1320px;
     margin: 0 auto;
@@ -29,10 +33,15 @@ a {
         padding-right: 14px;
     }
 }
+/* container end */
+
+/* Google icon */
 .material-symbols-outlined {
     vertical-align: middle;
 }
 
+
+/* color start */
 .bg-primary {
     background-color: #aa0601;
 }
@@ -48,7 +57,9 @@ a {
 .text-secondary {
     color: #aa0601;
 }
+/* color end */
 
+/* title start */
 .title-red-mb-48 {
     font-size: 48px;
     font-weight: 700;
@@ -87,6 +98,9 @@ a {
         font-size: 24px;
     }
 }
+/* title end */
+
+/* button start */
 .button {
     background: #aa0601;
     color: #fff;
@@ -125,6 +139,9 @@ a {
         width: 100%;
     }
 }
+/* button end */
+
+/* header start */
 .header-nav {
     display: flex;
     flex-wrap: wrap;
@@ -176,6 +193,9 @@ a {
         opacity: 0.7;
     }
 }
+/* header end  */
+
+/* logo start */
 .logo h1 a {
     background-image: url(https://github.com/zitonbar/2023-week3-product/blob/main/images/logo-white.png?raw=true);
     background-repeat: no-repeat;
@@ -188,6 +208,9 @@ a {
     white-space: nowrap;
     margin: 16px 0;
 }
+/* logo end */
+
+/* banner start */
 .banner {
     background-image: url(https://github.com/zitonbar/2023-week3-product/blob/main/images/home-header.png?raw=true);
     background-size: cover;
@@ -233,7 +256,9 @@ a {
         font-size: 24px;
     }
 }
+/* banner end */
 
+/* feature start */
 .feature {
     padding: 80px 0;
 }
@@ -242,7 +267,6 @@ a {
         padding: 40px 0;
     }
 }
-
 .feature-content {
     display: flex;
     flex-wrap: wrap;
@@ -283,9 +307,6 @@ a {
         margin-right: auto;
     }
 }
-/* .feature-item img {
-    width: 100px;
-} */
 .feature-item h3 {
     font-size: 24px;
     font-weight: 700;
@@ -294,6 +315,9 @@ a {
 .feature-item p {
     text-align: left;
 }
+/* feature end */
+
+/* classic start */
 .classic {
     padding: 80px 0;
 }
@@ -335,14 +359,6 @@ a {
     }
 }
 
-/* .classic-list img {
-    width: 416px;
-}
-@media (max-width: 768px){
-    .classic-list img {
-        width: 336px;
-    }
-} */
 .classic-list h4 {
     font-size: 48px;
     font-weight: 900;
@@ -351,6 +367,9 @@ a {
     text-align: center;
     margin-top: 8px;
 }
+/* classic end */
+
+/* co-branding start */
 .co-branding {
     background-image: url(https://github.com/zitonbar/2023-week3-product/blob/main/images/index-bg.png?raw=true);
     background-size: cover;
@@ -385,6 +404,9 @@ a {
     text-align: center;
     padding: 8px 0;
 }
+/* co-branding end */
+
+/* recommend start */
 .recommend {
     padding: 80px 0;
 }
@@ -483,7 +505,9 @@ a {
         font-size: 14px;
     }
 }
+/* recommend end */
 
+/* contact-content start */
 .contact-content {
     width: 48%;
     margin: 0 auto;
@@ -532,6 +556,9 @@ a {
 .checkbox-block {
     margin-bottom: 48px;
 }
+/* contact-content end */
+
+/* footer start */
 .footer-nav {
     padding-top: 48px;
     padding-bottom: 32px;
@@ -678,8 +705,9 @@ a {
 .footer-copyright-link li:hover {
     border-bottom: 3px solid #fff;
 }
+/* footer end */
 
-/* faq */
+/* faq start */
 
 .faq-content {
     max-width: 64.85%;
@@ -735,3 +763,4 @@ a {
     margin-bottom: 24px;
     }
 }
+/* faq end */
